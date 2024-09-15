@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AMA8.UK | Hosting - استضافة خوادم ألعاب متطورة توفر لك الأداء الأمثل والسرعة القصوى لتجربة ألعاب لا تضاهى.">
+    <title>AMA8.UK | Hosting</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            color: #dcdcdc;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #cccccc;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #bbb;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            color: #28a745;
+        }
+
+        .panel-link {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .panel-link:hover {
+            background-color: #0056b3;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        section p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            color: #cccccc;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .feature {
+            background-color: #2e2e2e;
+            border-radius: 10px;
+            padding: 30px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: scale(1.05);
+        }
+
+        .feature h3 {
+            color: #28a745;
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+        }
+
+        .pricing {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 50px 20px;
+        }
+
+        .plan {
+            background-color: #2e2e2e;
+            border-radius: 10px;
+            padding: 30px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+
+        .plan:hover {
+            transform: scale(1.05);
+        }
+
+        .plan h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+
+        .plan p {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: #cccccc;
+        }
+
+        .plan-price {
+            font-size: 2rem;
+            color: #28a745;
+        }
+
+        .cta {
+            background: #333;
+            padding: 20px;
+            margin-top: 30px;
+            color: white;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .language-toggle {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .language-toggle button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .language-toggle button:hover {
+            background-color: #0056b3;
+        }
+
+        @media (max-width: 768px) {
+            .features, .pricing {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AMA8.UK | Hosting</h1>
+        <p>أفضل استضافة خوادم ألعاب بأداء وسرعة لا تضاهى 🌟</p>
+    </header>
+
+    <a href="https://server.ama8.uk" class="panel-link">PANEL</a>
+
+    <nav>
+        <a href="#features">مميزاتنا</a>
+        <a href="#pricing">الباقات</a>
+        <a href="#contact">تواصل معنا</a>
+    </nav>
+
+    <div class="language-toggle">
+        <button onclick="toggleLanguage()">English</button>
+    </div>
+
+    <section id="features">
+        <h2>لماذا تختار AMA8.UK؟</h2>
+        <p>نحن نقدم لك تجربة استضافة خوادم الألعاب الأكثر تطوراً مع أفضل الميزات لتوفير أداء مميز وسرعة فائقة في اللعب 🎮.</p>
+        <div class="features">
+            <div class="feature">
+                <h3>⚡ أداء لا يُضاهى</h3>
+                <p>نستخدم أحدث التقنيات لضمان سرعة فائقة واستجابة عالية لخوادم الألعاب.</p>
+            </div>
+            <div class="feature">
+                <h3>🔒 أمان مُعزز</h3>
+                <p>نحن نهتم بحماية بياناتك ونوفر لك نظام حماية متقدم ضد الهجمات الإلكترونية.</p>
+            </div>
+            <div class="feature">
+                <h3>💬 دعم فني متميز</h3>
+                <p>فريق دعم متوفر على مدار الساعة لضمان استمرار خوادمك بلا أي انقطاع.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2>الباقات</h2>
+        <div class="pricing">
+            <div class="plan">
+                <h3>الباقة الأساسية</h3>
+                <p>RAM: 2GB</p>
+                <p>التخزين: 20GB SSD</p>
+                <p>السعر: <span class="plan-price">$5/شهرياً</span></p>
+            </div>
+            <div class="plan">
+                <h3>الباقة المتوسطة</h3>
+                <p>RAM: 4GB</p>
+                <p>التخزين: 40GB SSD</p>
+                <p>السعر: <span class="plan-price">$10/شهرياً</span></p>
+            </div>
+            <div class="plan">
+                <h3>الباقة المتقدمة</h3>
+                <p>RAM: 8GB</p>
+                <p>التخزين: 80GB SSD</p>
+                <p>السعر: <span class="plan-price">$20/شهرياً</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="cta">
+        <h2>استضافة خوادم تناسب احتياجاتك</h2>
+        <p>سواء كنت لاعبًا محترفًا أو مبتدئًا، نقدم لك خطط استضافة تناسب كافة احتياجات الألعاب 💻🎮.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AMA8.UK | Hosting - جميع الحقوق محفوظة</p>
+        <p>تواصل معنا عبر البريد الإلكتروني: info@ama8.uk</p>
+    </footer>
+
+    <script>
+        function toggleLanguage() {
+            const currentLang = document.documentElement.lang;
+            if (currentLang === 'ar') {
+                document.documentElement.lang = 'en';
+                document.body.innerHTML = document.body.innerHTML
+                    .replace('مميزاتنا', 'Features')
+                    .replace('الباقات', 'Pricing')
+                    .replace('تواصل معنا', 'Contact Us')
+                    .replace('لماذا تختار AMA8.UK؟', 'Why Choose AMA8.UK?')
+                    .replace('أفضل استضافة خوادم ألعاب بأداء وسرعة لا تضاهى 🌟', 'Top-Notch Game Server Hosting with Unmatched Speed 🌟')
+                    .replace('نحن نقدم لك تجربة استضافة خوادم الألعاب الأكثر تطوراً مع أفضل الميزات لتوفير أداء مميز وسرعة فائقة في اللعب 🎮.', 'We offer the most advanced game server hosting experience with the best features for optimal performance and incredible speed 🎮.')
+                    .replace('⚡ أداء لا يُضاهى', '⚡ Unmatched Performance')
+                    .replace('🔒 أمان مُعزز', '🔒 Enhanced Security')
+                    .replace('💬 دعم فني متميز', '💬 Excellent Support')
+                    .replace('الباقة الأساسية', 'Basic Plan')
+                    .replace('التخزين: 20GB SSD', 'Storage: 20GB SSD')
+                    .replace('الباقة المتوسطة', 'Standard Plan')
+                    .replace('RAM: 4GB', 'RAM: 4GB')
+                    .replace('الباقة المتقدمة', 'Advanced Plan')
+                    .replace('التخزين: 80GB SSD', 'Storage: 80GB SSD')
+                    .replace('استضافة خوادم تناسب احتياجاتك', 'Hosting That Meets Your Needs')
+                    .replace('تواصل معنا عبر البريد الإلكتروني', 'Contact Us Via Email');
+            } else {
+                location.reload();
+            }
+        }
+    </script>
+</body>
+</html>
